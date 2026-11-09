@@ -885,3 +885,10 @@ body:not(.subpage) .site-footer {
 #invitation-screen .form-note {
   color: #111;
 }
+
+/* Mobile : on décale la vidéo vers la droite pour voir davantage les palmiers */
+@media (max-width: 760px) {
+  #intro-video {
+    object-position: 88% center;
+  }
+}
