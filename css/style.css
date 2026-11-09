@@ -886,9 +886,9 @@ body:not(.subpage) .site-footer {
   color: #111;
 }
 
-/* Mobile : on décale la vidéo vers la droite pour voir davantage les palmiers */
+/* Mobile : cadrage entre océan (gauche) et palmiers (droite) */
 @media (max-width: 760px) {
   #intro-video {
-    object-position: 88% center;
+    object-position: 70% center;
   }
 }
